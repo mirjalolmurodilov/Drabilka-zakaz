@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1015px;
+    margin: 0 auto;
+    padding: 0 15;
+    display: block;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 54px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video {
+    width: 60px;
+    height: 50px;
+    border-radius: 20%;
+    
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin: auto;
+    font-size: 50;
+}
+li {
+    list-style: none;
+}
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F3L6qcq1y6yHyNYw1OX%2Fgiphy.gif&f=1&nofb=1&ipt=3fec30b607c6dfbdba35c6b426e5eeedbfc9ebff9b1b5de0d77dbffce15ee0bd&ipo=images");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a {
+    text-decoration: none; /* Pastki chiziqni olib tashlaydi */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(241, 233, 233);
+}   
+
+
+a:hover {
+    text-decoration: underline; /* Faqat sichqoncha ustiga kelganda chiqadi */
+}
+
+#ota {
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    margin: 0 auto;
+
+}
+#ota1 {
+    padding-top: 50px;
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    margin: 0 auto;
+
+}
+#ota2 {
+    padding-top: 50px;
+    width: 850px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    
+    margin: 0 auto;
+    padding-bottom: 20px    ;
+
+}
+.a {
+    
+    width: 200px;
+    height: 150px;
+    border-radius: 5%;
+    
+}
+@media (max-width: 800px) {
+    #ota {
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    #ota1 {
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    #ota2 {
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    ul {
+        font-size: 40;
+    }
+  }
+
+
+  @media (max-width: 700px) {
+   .a {
+    width: 200px;
+    height: 150px;
+   }
+   body {
+    background-image: (url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F3L6qcq1y6yHyNYw1OX%2Fgiphy.gif&f=1&nofb=1&ipt=3fec30b607c6dfbdba35c6b426e5eeedbfc9ebff9b1b5de0d77dbffce15ee0bd&ipo=images"));
+   }
+
+  }
+
+
