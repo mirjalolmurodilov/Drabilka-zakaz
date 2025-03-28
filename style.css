@@ -53,7 +53,7 @@ body {
 a {
     text-decoration: none; /* Pastki chiziqni olib tashlaydi */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(241, 233, 233);
+    color: rgb(0, 0, 0);
 }   
 
 
@@ -99,33 +99,63 @@ a:hover {
     
 }
 @media (max-width: 800px) {
+    
+    
+    
+    
     #ota {
+        width: 560px;
+       align-items: center;
+       justify-content: center;
         grid-template-columns: repeat(3,1fr);
-        gap: 10px;
+        margin-left: 44px;
+        
     }
     #ota1 {
+        
+        align-items: center;
+       justify-content: center;
+       width: 560px;
         grid-template-columns: repeat(3,1fr);
-        gap: 10px;
+        margin-left: 44px;
+    
     }
     #ota2 {
+        
+        align-items: center;
+       justify-content: center;
+       width: 560px;
         grid-template-columns: repeat(3,1fr);
-        gap: 10px;
+        margin-left: 44px;
+        
     }
     ul {
-        font-size: 40;
+        font-size: 30;
     }
   }
 
 
-  @media (max-width: 700px) {
-   .a {
-    width: 200px;
-    height: 150px;
-   }
-   body {
-    background-image: (url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F3L6qcq1y6yHyNYw1OX%2Fgiphy.gif&f=1&nofb=1&ipt=3fec30b607c6dfbdba35c6b426e5eeedbfc9ebff9b1b5de0d77dbffce15ee0bd&ipo=images"));
-   }
-
+  @media (max-width: 500px) {
+    #ota {
+        width: 600px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        margin-left: 100px;
+    }
+    #ota1 {
+        width: 600px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    #ota2 {
+        width: 600px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    ul {
+        font-size: 35;
+        gap: 50px;
+    }
   }
 
 
